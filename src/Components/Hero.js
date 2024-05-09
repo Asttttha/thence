@@ -50,7 +50,7 @@ const Hero = () => {
                     <img src={image2} alt='heroFrane' className='heroFrame' />
                     <div className="overlay">
                         <p className='content'>Enhance fortune 50 company’s insights teams research capabilities</p>
-                        <div class="dots">
+                        <div className="dots">
                             <span onclick="changeContent(0)" className='dot' id='active'></span>
                             <span onclick="changeContent(1)" className='dot'></span>
                             <span onclick="changeContent(2)" className='dot'></span>
