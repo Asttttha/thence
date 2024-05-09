@@ -76,8 +76,8 @@ const Register = () => {
                         </p>
                         <form className='register' onSubmit={handleSubmit}>
                             <input type='text' className='input' value={name}
-                                onChange={handleNameChange} placeholder='Enter your name' />
-                            <input type='email' className={`input ${validEmail ? '' : 'invalid'}`} value={email} onChange={handleChange} placeholder='Enter your email' />
+                                onChange={handleNameChange} placeholder='Enter your name' name='name' />
+                            <input type='email' className={`input ${validEmail ? '' : 'invalid'}`} value={email} onChange={handleChange} placeholder='Enter your email' name='email'/>
                             {!validEmail && <p className="errorMessage"><span className='flag'><MdError /></span>
                                 Enter a valid email address</p>}
                             <button className='btn' style={buttonStyle} disabled={isButtonDisabled}>
