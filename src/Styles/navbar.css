@@ -1,0 +1,55 @@
+.navbar {
+  border-radius: 65.28px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16.97px 20.89px 16.97px 52.22px;
+  margin: 0 25px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImg {
+  width: 121px;
+}
+
+.btnDiv {
+  display: flex;
+  width: 428.61px;
+  height:77.22px;
+  gap: 15.67px;
+}
+
+.getProj {
+  background-color: #ffff;
+  border: 1.3px solid #eaeaea;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  padding: 26.11px 41.78px 26.11px 41.78px;
+  border-radius: 107.06px;
+}
+
+.getProj:hover {
+  background-color: #eaeaea;
+}
+
+.onboard {
+  width: 223.39px;
+  height: 77.22px;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  padding: 26.11px 49.61px 26.11px 41.78px;
+  border-radius: 107.06px;
+  border: none;
+  color: #ffff;
+  background: #1c1c1c;
+}
+
+.onboard:hover {
+  background: #4e4e4e;
+}

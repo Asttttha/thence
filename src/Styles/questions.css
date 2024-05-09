@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+.questions {
+  /* height: 749px; */
+  padding: 25px;
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 40px;
+  background-color: #e8eee7;
+}
+.ask {
+  width: 50%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+}
+
+.what {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+  color: #9e9d9d;
+  margin: 0;
+}
+
+.que {
+  font-family: "Manrope", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+}
+
+.askImg {
+  position: absolute;
+  width: 491px;
+  height: 514.61px;
+  top: 224px;
+  left: -25px;
+}
+
+.askp {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  width: 491px;
+  height: 514.61px;
+}
+
+.answers {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 598px;
+  top: 80rem;
+  left: 820px;
+  width: 581px;
+  gap: 16px; 
+  overflow: hidden;
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.questionItem {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.questionText {
+  width: 400px;
+}
+
+.toggleIcon {
+  cursor: pointer;
+}
+
+.answerText {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #617275;
+}

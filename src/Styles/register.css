@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 45px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.closeImg {
+  width: 64px;
+  height: 64px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  gap: 62px;
+}
+
+.ps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 588px;
+  gap: 16px;
+}
+.small {
+  margin: 0;
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 36px;
+  letter-spacing: -0.02em;
+  color: #2da950;
+}
+
+.large {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.input {
+  width: 360px;
+  height: 25px;
+  padding: 24px 36px 24px 36px;
+  gap: 10px;
+  border-radius: 64px;
+  border: 1px;
+  opacity: 0px;
+  background: #efefef;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  line-height: 27.32px;
+}
+
+.input:focus {
+  background: #f5f8ff;
+  border: 1px solid #537ff1;
+  outline: none;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.btn {
+  color: #ffffff;
+  margin: 23px 0 0 0;
+  width: 417px;
+  height: 77.2px;
+  padding: 26.11px 49.61px 26.11px 41.78px;
+  gap: 15.67px;
+  border-radius: 107.06px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.errorMessage {
+  width: 275px;
+  height: 22px;
+  gap: 17px;
+  opacity: 0px;
+  color: red;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tick {
+  width: 66.67px;
+  height: 66.67px;
+  top: 6.66px;
+  left: 6.67px;
+  margin-bottom: 25px;
+  margin-top: 290px;
+}
+
+.message {
+  font-family: "Manrope", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  text-align: center;
+  color: #727272;
+  width: 700px;
+  height: 105px;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.redirectingDiv {
+  width: 718px;
+  display: flex;
+  margin-top: 85px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.redirecting {
+  margin: 75px 0;
+}

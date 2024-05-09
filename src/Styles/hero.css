@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Switzer:wght@400;700&display=swap");
+
+.hero {
+  margin-bottom: 180px;
+}
+.hero,
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  height: 178px;
+  margin-top: 55px;
+}
+
+.elements {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.heroFrame {
+  width: 450px;
+  height: 600px;
+  margin: 0;
+}
+.content2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 588px;
+}
+.content1 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  color: #2da950;
+  margin: 0;
+  padding: 0;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+  width: 100%;
+}
+
+.heroImg {
+  border-radius: 60px;
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+}
+.picOverlay1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  width: 274px;
+  height: 200px;
+  top: 710px;
+  left: 270px;
+  padding: 20px 0 12px;
+  gap: 50px;
+  border-radius: 27.11px;
+  box-shadow: 0 0 0 rgba(61, 61, 61, 0.683), 0 20px 30px rgba(88, 85, 85, 0.057);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picOverlay2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #002e18;
+  width: 300px;
+  border: 1.18px solid #3d3d3d; 
+  height: 200px;
+  gap: 20px;
+  top: 960px;
+  right: 490px;
+  padding: 20px 0;
+  border-radius: 27.11px;
+  box-shadow: 0 0 0 rgba(61, 61, 61, 0.683), 0 20px 30px rgba(88, 85, 85, 0.057);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picOverlay3 {
+  width: 200px;
+  height: 55px;
+  position: absolute;
+  top: 950px;
+  left: 350px;
+  padding: 16px 32px 16px 16px;
+  border-radius: 111.54px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 rgba(61, 61, 61, 0.683), 0 20px 30px rgba(88, 85, 85, 0.057);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background: #ffffff;
+}
+
+.rocket {
+  width: 55px;
+  height: 55px;
+}
+
+.content10days {
+  display: flex;
+  margin-left: 10px;
+  gap: 2px;
+  flex-direction: column;
+}
+.content10days p {
+  margin: 0;
+}
+
+.days {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.staff {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  color: #828282;
+}
+.sparkle {
+  position: absolute;
+  top: -5px;
+  left: -50px;
+  width: 110px;
+}
+.contentp {
+  width: 207.82px;
+}
+
+.contentp p {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+  margin: 0;
+}
+
+.content40 {
+  position: relative;
+  top: -50px;
+  width: 121px;
+  height: 5px;
+  margin-right: 80px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  position: relative;
+}
+.content5 {
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.million {
+  width: 91px;
+  font-family: "Switzer", system-ui;
+  font-size: 22.81px;
+  color: #a6a3a0;
+}
+.currency {
+  font-family: "Switzer", system-ui;
+  font-size: 63.37px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+
+.contentp5 {
+  width: 225px;
+}
+
+.contentp5 p {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  color: #cccccc;
+}
+
+.content40 p {
+  font-family: "Switzer", system-ui;
+  font-size: 54px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.overlay {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 210px;
+  width: 450px;
+  top: 240px;
+  left: 150px;
+}
+
+.content {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.dots {
+  margin-top: 60px;
+}
+
+.dot {
+  width: 10.75px;
+  height: 10.75px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#active {
+  background-color: #2da950;
+}
+
+.btn1 {
+  width: 245px;
+  margin-top: 100px;
+  padding: 31px 40px 31px 40px;
+  border-radius: 100px;
+  background-color: #1c1c1c;
+  border: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn1:hover {
+  background: #4e4e4e;
+}
+
+.arrow {
+  margin: 0 0 0 20px;
+}

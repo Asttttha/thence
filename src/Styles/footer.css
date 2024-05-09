@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.footer {
+  margin: 50px 25px 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 40px;
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+.copyright {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+.links {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.links a {
+  color: #1c1c1c;
+}
+.copyrightSymbol {
+  font-size: 25px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  margin-right: 10px;
+}
