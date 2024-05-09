@@ -26,7 +26,8 @@ Make sure you have Node.js and npm installed on your machine.
 
 3. Install dependencies:
 
-    ``` npm i react-redux redux  @reduxjs/toolkit @redux-devtools/extension react-icons redux-thunk react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons  
+    ```sh
+     npm i react-redux redux  @reduxjs/toolkit @redux-devtools/extension react-icons redux-thunk react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons  
 
 ### Usage
 
