@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='copyright'>
-                <p><span className="copyrightSymbol">&copy;</span>  Talup {currentDate}. All rights reserved</p>
+                <p><span className="copyrightSymbol">&copy;</span>  Astha {currentDate}. All rights reserved</p>
             </div>
             <div className='links'>
                 <a href='/'>Terms & Conditions</a>
